@@ -1,0 +1,1 @@
+Optional: add screenshots named smart-village.jpg, agrilink.jpg, meetiq.jpg, reconx.jpg, student-portal.jpg. Current cards use designed visual placeholders, so the site works without these images.
