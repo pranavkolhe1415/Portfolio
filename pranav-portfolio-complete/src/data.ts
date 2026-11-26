@@ -5,7 +5,7 @@ export const profile = {
   github: 'https://github.com/pranavkolhe1415',
   linkedin: 'www.linkedin.com/in/pranav-kolhe-4a1063301', // TODO: replace with your profile URL
   location: 'Pune, India',
-  resume: '/resume/Pranav-Kolhe-Resume.pdf',
+  resume: '/resume/Pranav_Kolhe.pdf',
 }
 
 export const skills = [
