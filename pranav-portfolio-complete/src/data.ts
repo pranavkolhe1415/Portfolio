@@ -1,9 +1,9 @@
 export const profile = {
   name: 'Pranav Kolhe',
   role: 'Full-Stack Developer',
-  email: 'your.email@example.com', // TODO: replace with your professional email
+  email: 'kolhepranav2018@gmail.com', // TODO: replace with your professional email
   github: 'https://github.com/pranavkolhe1415',
-  linkedin: 'https://www.linkedin.com/', // TODO: replace with your profile URL
+  linkedin: 'www.linkedin.com/in/pranav-kolhe-4a1063301', // TODO: replace with your profile URL
   location: 'Pune, India',
   resume: '/resume/Pranav-Kolhe-Resume.pdf',
 }
@@ -11,7 +11,7 @@ export const profile = {
 export const skills = [
   { group: 'Frontend', items: ['React', 'JavaScript', 'TypeScript', 'Next.js', 'HTML5', 'CSS3', 'Tailwind CSS'] },
   { group: 'Backend', items: ['Node.js', 'Express.js', 'Java', 'REST APIs', 'JWT Authentication'] },
-  { group: 'Database & Tools', items: ['MongoDB', 'MySQL', 'Git', 'GitHub', 'Postman'] },
+  { group: 'Database & Tools', items: ['MongoDB', 'MySQL', 'Git', 'GitHub'] },
   { group: 'Creative Web', items: ['Three.js', 'React Three Fiber', 'Framer Motion', 'Responsive UI'] },
 ]
 
@@ -22,14 +22,14 @@ export const projects = [
     detail: 'A team project where I took a leadership role and contributed to building a full-stack village-management experience. The system brings service workflows into a central digital platform.',
     stack: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
     type: 'Team project · Team leadership', image: '/projects/smart-village.jpg',
-    github: 'https://github.com/PranavKolhe001/Smart-Village-Management-System', demo: '',
+    github: 'https://github.com/pranavkolhe1415/Smart-Village-Management-System.git', demo: 'https://smart-village-management-system-five.vercel.app/',
   },
   {
     number: '02', category: 'AGRICULTURE TECHNOLOGY', name: 'AgriLink',
     description: 'A platform concept connecting farmers and industry through a practical digital experience.',
     detail: 'A full-stack agriculture platform concept focused on connecting farmers and industry users. The project explores role-based experiences and practical digital workflows.',
     stack: ['React', 'Express', 'MongoDB', 'JavaScript'],
-    type: 'Full-stack application', image: '/projects/agrilink.jpg', github: '', demo: '',
+    type: 'Full-stack application', image: '/projects/agrilink.jpg', github: 'https://github.com/pranavkolhe1415/agri-link2.0.git', demo: '',
   },
   {
     number: '03', category: 'AI MEETING ASSISTANT', name: 'MeetIQ',
@@ -43,14 +43,14 @@ export const projects = [
     description: 'A reconciliation application built to compare transaction data and surface mismatches.',
     detail: 'A MERN-based reconciliation assessment project. It focuses on importing transaction data, matching records, and making mismatches easier to identify and review.',
     stack: ['React', 'Node.js', 'Express', 'MongoDB'],
-    type: 'MERN assessment project', image: '/projects/reconx.jpg', github: '', demo: '',
+    type: 'MERN assessment project', image: '/projects/reconx.jpg', github: 'https://github.com/pranavkolhe1415/Payment_Reconsilation.git', demo: '',
   },
   {
     number: '05', category: 'EDUCATION PLATFORM', name: 'Student Development Portal',
     description: 'A portal for student assignments, project submissions, faculty tasks and academic workflows.',
     detail: 'A role-based academic portal concept supporting student submissions, staff task allocation, group verification, meetings and administration workflows.',
     stack: ['React', 'Node.js', 'MongoDB', 'REST APIs'],
-    type: 'Academic project', image: '/projects/student-portal.jpg', github: '', demo: '',
+    type: 'Academic project', image: '/projects/student-portal.jpg', github: 'https://github.com/pranavkolhe1415/Student-Development-Portal-UI.git', demo: '',
   },
 ]
 

@@ -145,14 +145,17 @@ function MouseAndCoffee() {
           <cylinderGeometry args={[0.17, 0.2, 0.34, 32]} />
           <meshStandardMaterial color="#283650" metalness={0.5} roughness={0.28} />
         </mesh>
-        <mesh position={[0, 0.18, 0]}>
-          <torusGeometry args={[0.145, 0.018, 10, 32]} />
+        <mesh rotation={[0, 0, Math.PI / 2]}>
+         <torusGeometry args={[0.105, 0.025, 10, 24, Math.PI]} />
           <meshStandardMaterial color="#718cff" metalness={0.7} roughness={0.25} />
         </mesh>
-        <mesh position={[0.2, 0.02, 0]}>
-          <torusGeometry args={[0.105, 0.025, 10, 24, Math.PI]} rotation={[0, 0, Math.PI / 2]} />
-          <meshStandardMaterial color="#52627f" metalness={0.7} roughness={0.3} />
-        </mesh>
+        <mesh
+  position={[0.2, 0.02, 0]}
+  rotation={[0, 0, Math.PI / 2]}
+>
+  <torusGeometry args={[0.105, 0.025, 10, 24, Math.PI]} />
+  <meshStandardMaterial color="#52627f" metalness={0.7} roughness={0.3} />
+</mesh>
       </group>
     </group>
   )
